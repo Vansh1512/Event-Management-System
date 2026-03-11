@@ -1,0 +1,10 @@
+com\event\servlet\AdminLoginServlet.class
+com\event\servlet\DeleteEventServlet.class
+com\event\servlet\LogoutServlet.class
+com\event\servlet\RegisterEventServlet.class
+com\event\util\DBconnection.class
+com\event\servlet\LoginServlet.class
+com\mycompany\eventmanagementsystem\JakartaRestConfiguration.class
+com\event\servlet\RegisterServlet.class
+com\event\servlet\AddEventServlet.class
+com\mycompany\eventmanagementsystem\resources\JakartaEE10Resource.class

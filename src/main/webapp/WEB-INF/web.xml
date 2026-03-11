@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+   version="6.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.event.servlet.AdminLoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+</servlet-mapping>
+    <servlet>
+<servlet-name>AddEventServlet</servlet-name>
+<servlet-class>com.event.servlet.AddEventServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>AddEventServlet</servlet-name>
+<url-pattern>/AddEventServlet</url-pattern>
+</servlet-mapping>
+</web-app>
